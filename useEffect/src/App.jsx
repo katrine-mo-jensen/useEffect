@@ -1,18 +1,17 @@
 
 import './App.css'
 import { ShowUsers } from './component/ShowUsers'
+import { Timer } from './component/Timer'
 import { Validation } from './component/Validation'
-
-// import { Timer } from './component/timer'
 
 function App() {
   
 
   return (
     <>
-     {/* <Timer/> */}
+     <Timer/>
     {/* <ShowUsers/> */}
-    <Validation/>
+    {/* <Validation/> */}
     </>
   )
 }
